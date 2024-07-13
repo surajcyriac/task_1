@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* -----------------header-------------------- */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    
+
+}
+#headerdhead{
+    font-family: "Playwrite HU", cursive;
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 400px;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    padding-top: 40px;
+    width: 500px;
+}
+.linkitem{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.486);
+    text-decoration: none;
+
+    
+
+}
+.icons{
+    display: flex;
+    
+}
+.icon{
+    font-size: 30px;
+    padding: 10px;
+
+}
+.brands{
+    color: white;
+}
+/* ------------------part2------------------- */
+#part2{
+    margin-top: -60px;
+    background-image: url(./images/scuba-diving.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+        border: solid;
+
+}
+.part2cont{
+    margin-left: 10%;
+    padding-top: 100px;
+    width: 50%;
+    color: white;
+
+}
+.part2head{
+    font-family: "Roboto Slab", serif;
+    font-size: 70px;
+    padding-top: 100px;
+    color: rgba(255, 255, 255, 0.447);
+}
+.part2para{
+    width: 50%;
+    padding-top: 50px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 100;
+}
+.buton{
+    margin-left: 500px;
+    width: 200px;
+    margin-top: 100px;
+    padding: 5px;
+    border: solid white;
+    text-align: center;
+}
+.butonlink{
+    text-decoration: none;
+    color: white;
+
+}
+/* --------------part3--------------------------*/
+#part3{
+    padding-top: 150px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+
+}
+.part3first{
+    width: 300px;
+    height: 100%;
+    margin-left: 30px;
+}
+.part3second{
+    margin-left: 80px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 200px ;
+    gap: 50px;
+
+}
+.part3head1{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: rgb(137, 137, 137);
+
+    
+}
+.part3head2{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.part3icon{
+font-size: 50px;
+margin-bottom: 20px;
+}
+.smalldivhead{
+    margin-bottom: 20px;
+}
+
+
+
+/* ---------------------part4--------------------------- */
+/* #part4{
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:  repeat(3,30%);
+    grid-template-rows: repeat(3,250px) ;
+    gap: 10px;
+background-color: black;
+} */
+/* .part4image{
+    width: 100%;
+    height: auto;
+    margin: auto;
+} */
+
+
+/* <!-- Gallery --> */
+#gallery{
+    padding-top: -100px;
+    padding: 70px;
+}
+.gal-heading{  
+    font-family: "Playwrite AR", cursive;
+
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.galleryphotos{
+    display: grid;
+        /* align-items: center; */
+    margin-left: 170px;
+    grid-template-columns: 350px 350px 350px;
+    gap: 15px;
+}
+.img-g{
+    width: 350px;
+    /* align-items: center; */
+    /* height: 250px; */
+    /* border-radius: 10px; */
+
+}
+.imgk{
+    margin-top: -85px;
+    height: 200px;
+
+}
+.img5{
+    /* margin-top: -392px; */
+}
+.img1{
+    margin-top: -90px;
+}
+.img2{
+    /* margin-top: -20%; */
+}
+.img3{
+    margin-top: -20px;
+}
+.img4{
+    /* margin-top: -110px; */
+}
+.img51{
+    margin-top: -150px;
+}
+.img52{
+    margin-top: -30px;
+    margin-bottom: -100px;
+}
+.img6{
+    margin-top: -67%;
+    height: 365px;
+    height: 318px;
+}
+.img7{
+    margin-top: -250px;
+    height: 383px;
+height: 333px;
+}
+.img8{
+    margin-top: -150px;
+}
+
+/* -----------------------part5---------------------- */
+#part5{
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.part5head1{
+    color: rgb(137, 137, 137);
+
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.part5head2{
+    font-family: "Playwrite AR", cursive;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.paymentmode{
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-evenly; 
+    width: 100%;
+}
+.blurtext{
+    font-size: 15px;
+    color: rgb(137, 137, 137);
+}
+.payment1{
+    padding-top: 20px;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 20px;
+
+}
+.part5list {
+    list-style: none;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+.amount{
+    padding: 20px 20px 20px 20px;
+    background-color:  rgb(220, 216, 216);
+    font-size: 30px;
+    font-weight: 100;
+}
+.centeramount{
+    background-color: rgb(65, 128, 237);
+}
+.centerblurtext{
+    color: white;
+}
+li{
+    border-bottom: solid 1px  rgb(204, 204, 204) ;
+
+}
+.paybutton{
+    padding :10px 20px 10px 20px; 
+}
+/* --------------------footer--------------------- */
+
+.parent{
+    background-image: url(./images/underwater-life-turtle.jpg);
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    border-top: solid 1px rgb(228, 227, 227);
+}
+.child{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.ftr{
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+
+/* ---------------animation ------------------------ */
+.payment1:hover{
+    border: solid  rgb(242, 167, 54)4px;
+    /* background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgb(79, 76, 247)); */
+}
+
+/* ----------------------scrollbar------------------- */
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(243, 243, 243);
+} 
+::-webkit-scrollbar-thumb{
+    background-color: rgba(85, 130, 183, 0.622);
+    border-radius: 20px;
+} 
+/* --------------smooth scrolll------------- */
+html{
+    scroll-behavior:smooth ;
+}
